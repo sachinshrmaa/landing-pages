@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    margin-top: 0;
+    background-color: #fffffe;
+    
+}
+#bgimg{
+    background-image: url("covid19.jpg");  
+    width: 100%;
+    height:100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: 1350px 780px;
+}
+.navbar{
+    height: 25px;
+    background-color:#f8f5f2;
+    padding: 20px;  
+}
+.navbar a{
+    float:right;
+    position: relative;
+    text-decoration: none;
+    color: #1f1135;
+    font-size: large;
+    padding-left: 30px;
+}
+.main{
+    height: 400px;
+    text-align: center;
+    margin-top: 170px;
+}
+.main h2{
+    font-size: 50px;
+}
+#support{
+    height: 40px;
+    width: 150px;
+    background-color: orangered;
+    font-size: medium;
+    border: 0px;
+    border-radius: 3px;
+    color: #fffffe;
+    cursor: pointer;
+}
+#title{
+    float: left;
+    padding-left: 15px;
+    font-size: large;
+    font-weight: bold;
+}
+.fight-corona{
+    height: 440px;
+    text-align: center;   
+    background-color:  #fffffe;
+    padding-top: 30px;
+}
+.box{
+    border: 0.5px solid #d1ccc7;
+    width: 30%;
+    float: left;
+    display: block;
+    border-radius: 2px;
+    margin-left: 2%;
+    cursor: pointer;
+    padding: 3px;
+}
+#thumbnail{
+    width: 100%;
+    height: 250px;
+    opacity: 0.8;
+}
+.statistics{
+    height: 150px;
+    background-color: #feefe8;
+}
+.results{
+    width: 15%;
+    float: left;
+    display: block;
+    border-radius: 5px;
+    margin-left:4%;
+    cursor: pointer;
+    margin-top: 50px;
+    text-align: center;
+}
+.results-head{
+    border:0;
+    width: 15%;
+    float: left;
+    display: block;
+    border-radius: 5px;
+    margin-left:4%;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.sub-footer{
+    height: 160px;
+    background-color: #000;
+}
+.rows{
+    width: 23%;
+    float: right;
+    margin-top: 20px;
+    color: #fff;
+}
+.rows a{
+    text-decoration: none;
+    color: #e9ecec;
+}
+.footer{
+    height: 50px;
+    background-color: #000 ;
+    color: #fffffe;
+    font-size:15px;
+    padding: 7px 70px;
+}
