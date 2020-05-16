@@ -1,5 +1,5 @@
 # UI & UX by Sachin 
-In this repository I've shared all of my UI and UX designs with its source code. 
+In this repository I share all of my UI and UX designs with its source code. 
 All of the pages are designed with mostly HTML, CSS and JS. 
 
 ## Usuage 
