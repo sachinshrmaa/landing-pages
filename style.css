@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar{
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.933);
+    color: #000;
+    padding: 10px;  
+}
+
+#logo{
+    font-size: 25px;
+    padding: 20px;
+    color: #ffee;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 0 10px;
+    font-size: 18px;
+    float: right;
+    padding: 4px 10px;
+    padding-right: 20px;
+}
+
+
+.main-intro{
+    height: 600px;
+
+}
+
+.main-intro h1{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    font-size: 50px;
+}
+
+.main-intro p{
+    position: absolute;
+    top: 280px;
+    left: 100px;
+    font-size: 20px;
+}
+
+#intro-btn{
+    height: 50px;
+    width: 150px;
+    border: 0px;
+    border-radius: 3px;
+    background-color: #000;
+    position: absolute;
+    top: 350px;
+    left:100px;
+    cursor: pointer;
+}
+
+#intro-btn a{
+    color: #fffe;
+    text-decoration: none;
+}
+
+
+
+.projects{
+    height: 400px;
+    margin-left: 12%;
+}
+
+
+.project-card{
+    width: 25%;
+    float: left;
+    margin-left: 3%;
+    background-color: rgb(224, 224, 224);
+    border-radius: 5px;  
+    padding:0 10px;
+}
+
+#view-btn{
+    height: 30px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+#view-btn a{
+    text-decoration: none;
+}
+
+#thmbnail{
+    height: 160px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+.footer{
+    height: 70px;
+    background-color: #eff0f3;
+    color: #2a2a2a;
+    text-align: center;
+    padding: 20px 0;
+}
+.footer a{
+    color: #ff8e3c;
+}

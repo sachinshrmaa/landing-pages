@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+body{
+    margin: 0px;
+    font-family: 'Nunito', sans-serif;
+}
+.join-form{
+    height: 500px;
+    float: left;
+}
+.img{
+    position: absolute;
+    top: 90px;
+    right: -10px;
+
+}
+
+.join-form form{
+    position: absolute;
+    top: 330px;
+    left: 115px;
+}
+
+#name-field, #email-field{
+    height: 50px;
+    border: 0;
+    border-radius: 2px;
+    padding: 0 10px;
+    background-color: rgb(231, 231, 231);
+    margin: 0 3px;
+}
+
+#name-field{
+    width: 150px;
+}
+
+
+#email-field{
+    width: 200px;
+}
+
+
+#join-btn{
+    height: 50px;
+    width: 120px;
+    color: honeydew;
+    background-color: rgb(93, 151, 218);
+    border: 0px ;
+    border-radius: 2px;
+    margin: 0 3px;
+    cursor: pointer;
+    width: 170px;
+  
+}
+
+.join-form h1{
+    position: absolute;
+    top: 90px;
+    left: 120px;
+    font-size: 56px;
+}
+
+.join-form p{
+     position: absolute;
+     top: 210px;
+     left: 120px;
+     width: 48%;
+
+}
+
+#privacy{
+    position: absolute;
+    top: 385px;
+    left: 120px;
+}
+
+@media screen and (max-width: 1200px){
+  
+   .join-form h1{
+       position: absolute;
+       top: 70px;
+       left: 50px;
+       font-size: 40px;
+   }
+
+   .join-form p{
+           position: absolute;
+           top: 150px;
+           left: 50px;
+           width: 48%;
+   }
+
+   .join-form form{
+        position: absolute;
+        top: 270px;
+        left: 50px;
+   }
+
+   #name-field, #email-field{
+       height: 50px;
+       border: 0;
+       border-radius: 2px;
+       padding: 0 10px;
+       background-color: rgb(231, 231, 231);
+       margin: 5px 0;
+       width: 80%;
+   }
+
+   
+   #join-btn{
+       height: 50px;
+       width: 200px;
+       color: honeydew;
+       background-color: rgb(93, 151, 218);
+       border: 0px ;
+       border-radius: 2px;
+       margin: 5px 0;
+       cursor: pointer;
+       width: 85%;
+       
+   }
+
+
+   #privacy{
+       position: absolute;
+       top: 450px;
+       left: 150px;
+   }
+
+}
+
+@media screen and (max-width: 1000px){
+  
+    .img{
+        display: none;
+    }
+     .join-form h1{
+         position: absolute;
+         top: 70px;
+         left: 50px;
+         font-size: 40px;
+     }
+
+     .join-form p{
+             position: absolute;
+             top: 150px;
+             left: 50px;
+             width: 80%;
+     }
+
+     .join-form form{
+          position: absolute;
+          top: 330px;
+          left: 50px;
+     }
+
+     #name-field, #email-field{
+         height: 50px;
+         border: 0;
+         border-radius: 2px;
+         padding: 0 10px;
+         background-color: rgb(231, 231, 231);
+         margin: 5px 0;
+         width: 80%;
+     }
+
+     
+     #join-btn{
+         height: 50px;
+         width: 200px;
+         color: honeydew;
+         background-color: rgb(93, 151, 218);
+         border: 0px ;
+         border-radius: 2px;
+         margin: 5px 0;
+         cursor: pointer;
+         width: 85%;
+         
+     }
+
+
+     #privacy{
+         position: absolute;
+         top: 510px;
+         left: 150px;
+     }
+
+}

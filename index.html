@@ -3,143 +3,53 @@
 <head>
    <title>UI & UX by Sachin</title>
 
-   <!--CSS Boostrap-->
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   <link rel="stylesheet" href="style.css">
 
-    <style>
-        h2, h3, h4{
-            color: #0d0d0d;
-        }
-        #btn{
-            height: 50px;
-            width: 150px;
-            background-color:#ff8e3c ;
-            color: #0d0d0d;
-            border-radius: 5px;
-            border: 0px;
-        }
-        .projects{
-            background-color:#fffffe;
-            padding-bottom: 50px;
-            padding: 20px 0 ;
-        }
-        
-        .footer{
-            height: 70px;
-            background-color: #eff0f3;
-            color: #2a2a2a;
-            text-align: center;
-            padding: 20px 0;
-        }
-        .footer a{
-            color: #ff8e3c;
-        }
-        #view-btn{
-            height: 30px;
-            width: 100%;
-            background-color:#ffbf91 ;            
-            border-radius: 5px;
-            border: 0px;
-        }
-        #view-btn a{
-            color: #2a2a2a;
-            font-size: 13px;
-        }
-
-        #thumbnail{
-            height: 200px;
-            width: 100%;
-            margin-bottom: 5px;
-        }
-       
-           .main{
-                height: 600px;
-                padding: 170px 50px;
-                color: #2a2a2a ;
-                background-color: #eff0f3;
-            }
-            .landing-page{
-                height: 200px;
-                background-color: #eff0f3 ;
-                width: 90%;
-                padding: 50px 20px;
-                margin: 30px 25px;
-                border-radius: 5px;
-                color: #2a2a2a;
-
-            }
-
-       
-    </style>
 </head>
 <body>
 
-    <div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="https://sachinshrmaa.github.io/landing-pages/">UI & UX by Sachin</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="https://sachinshrmaa.github.io/landing-pages/">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="https://github.com/sachinshrmaa/landing-pages/blob/master/README.md">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="mailto:contact@sachinshrmaa.com">Contact</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Category
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">E-commerce</a>
-                    <a class="dropdown-item" href="#">Blogs</a>
-                    <a class="dropdown-item" href="#">Professional</a>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </nav>
-    </div>
+     <div class="navbar">
+        <span id="logo">UI & UX by Sachin </span> 
+       
+        <a href="mailto:contact@sachinshrmaa.com">Contact</a>
+        <a href="#">About</a>
+        <a href="https://sachinshrmaa.github.io/landing-pages/">Home</a>
+       
 
-    <div class="main">
+     </div>
 
-        <h2>UI & Ux Design By Sachin!</h2>
-        <p>I share beautiful and engagging UI and Ux Design for Open Source.</p>
-        <button id="btn"><a href="https://github.com/sachinshrmaa/">Find on GitHub</a></button>
+     <div class="main-intro">
+         <h1>UI & UX by Sachin</h1>
+         <p>I share beautiful and engagging UI and Ux Design for Open Source.</p>
+         <button id="intro-btn"><a href="https://twitter.com/sachinshrmaa">Follow on Twitter</a></button>
+     </div>
 
-    </div>
+     <div class="projects">
 
-    <div class="projects">
+      <h2 style="text-align: center;">Latest Designs</h2>
 
-       <div style="text-align: center;">
-        <h3 style="text-align: center;">Latest Designs </h3>
-        <p>Some of the latest UI and UX designs from Sachin Sharma!</p>
-       </div>
-        
-        <div>
-            <div class="landing-page">
-                <!--<img src="" id="thumbnail" alt="thumbnail">-->
-                <h4>COVID-19 Pendamic</h4>
-                <p>Single page COVID-19 Pendamic landing page designed with HTML, CSS and JS.</p>
-                <button id="view-btn"><a href="COVID19/index.html">View Page</a></button>
-            </div>
+      <div class="project-card">
+        <img src="newsletter/newsletter thumbnail.jpg" id="thmbnail" alt="thumbnail">
+          <h3>Responsive E-mail Newsletter </h3>
+          <p>Static single page responsive newsletter. Designed with HTML and CSS.</p>
+          <button id="view-btn"><a href="https://sachinshrmaa.github.io/landing-pages/newsletter/index.html">View Page</a></button>
+      </div>
 
-        </div>
-    </div>
+
+      <div class="project-card">
+        <h3>COVID-19 Pendamic Landing Page </h3>
+        <p>Single page COVID-19 Pendamic landing page designed with HTML, CSS and JS.</p>
+        <button id="view-btn"><a href="https://sachinshrmaa.github.io/landing-pages/COVID19/index.html">View Page</a></button>
+      </div>
+
+
+  </div>
 
     <div class="footer">
         <p> UI & UX Design by <a href="https://sachinshrmaa.com/about" target="blank">Sachin Sharma</a> | <a href="https://twitter.com/sachinshrmaa" target="blank">I'm on twitter</a></p>
 
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    
+   
 </body>
 </html>
