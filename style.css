@@ -68,7 +68,7 @@ body{
 
 
 .projects{
-    height: 400px;
+    height: 500px;
     margin-left: 12%;
 }
 
@@ -108,4 +108,56 @@ body{
 }
 .footer a{
     color: #ff8e3c;
+}
+
+
+
+@media screen and (max-width:800px){
+    .navbar{
+        height: 40px;
+    }
+
+    #logo{
+        font-size: 22px;
+    }
+
+    .navbar a{
+        font-size: 18px;
+    }
+
+    .main-intro p{
+        width: 70%;
+        left: 50px;
+        top: 275px;
+    }
+    
+    .main-intro h1{
+        font-size: 45px;
+    }
+
+    .main-intro h1, #intro-btn{
+        position: absolute;
+        left:50px;
+    }
+
+    #intro-btn{
+        position: absolute;
+        top: 390px;
+
+    }
+
+    .projects{
+        height: 800px;
+        margin: 0%;
+    }
+
+    .project-card{
+        width: 90%;
+        margin-top: 20px;        
+    }
+
+    #thmbnail{
+        height: 250px;
+    }
+
 }
