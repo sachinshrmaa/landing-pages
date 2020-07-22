@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #fff;
+}
+
+.navbar-toggler {
+  border: 0;
+}
+
+h2 {
+  color: blueviolet;
+  font-weight: 600;
+}
+
+p {
+  font-size: 15px;
+  color: rgb(104, 101, 101);
+}
+
+#support-btn {
+  width: 100px;
+  height: 40px;
+  border: 0;
+  background-color: blueviolet;
+  color: #ffe;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.quote {
+  text-align: center;
+  height: 130px;
+}
+
+footer {
+  text-align: center;
+  height: 100px;
+  background-color: #efefef;
+  padding: 30px 0;
+}
+
+#join-btn {
+  height: 50px;
+  width: 150px;
+  border: 0;
+  border-radius: 5px;
+  background-color: blueviolet;
+  color: #ffe;
+  font-size: 17px;
+  margin: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.line {
+  height: 1px;
+  width: 70px;
+  background-color: blueviolet;
+  margin: 0 0 20px 0;
+}
+
+header {
+  text-align: center;
+  padding: 90px 0;
+}
+
+#title {
+  font-size: 45px;
+  font-weight: 600;
+  color: blueviolet;
+}
+
+#intro-des {
+  font-size: 17px;
+  font-weight: 100;
+  color: rgb(126, 125, 125);
+  margin: 0 10% 45px 10%;
+  line-height: 25px;
+}
+
+
+
+
+
+/* post card global elements */
+#post-card-title {
+  font-size: 20px;
+  font-weight: 200;
+  margin: 7px 0;
+  color: rgb(77, 77, 77);
+}
+
+#post-card-read {
+  font-size: 13px;
+  text-decoration: none;
+  color: blue;
+}
+
+#post-card-category {
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 100;
+  color: rgb(44, 43, 43);
+  padding-top: 15px;
+}
+
+.post-card h2,
+a,
+span {
+  padding: 0 15px;
+}
+
+.post-card-img {
+  height: 65%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border-radius: 10px 10px 0 0px;
+}

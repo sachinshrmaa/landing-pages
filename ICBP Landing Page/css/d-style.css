@@ -1,0 +1,84 @@
+#inp-field {
+  height: 50px;
+  width: 350px;
+  padding: 0 20px;
+  border-radius: 7px;
+  margin: 5px;
+  font-size: 15px;
+  border: 1px solid #aaa;
+}
+
+.img-mission {
+  height: 270px;
+  width: 500px;
+  float: right;
+}
+
+.mission {
+  padding: 45px;
+  height: 350px;
+}
+
+.mission p {
+  width: 50%;
+}
+
+.img-about {
+  height: 270px;
+  width: 250px;
+  float: left;
+  margin: 0 130px 0 0;
+}
+
+.about {
+  padding: 45px;
+  height: 350px;
+}
+
+.quote {
+  margin: 60px 0;
+}
+
+
+/* post card css  */
+
+.post-card {
+  background-color: #efefef;
+  width: 30%;
+  height: 350px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin: 15px;
+  float: left;
+}
+
+
+
+
+/*Simple post card css*/
+.post-card-simple {
+  height: 100px;
+  background-color: #efefef;
+  width: 30%;
+  padding: 10px 0;
+  border-radius: 5px;
+  margin: 15px;
+  float: left;
+}
+
+.post-card-simple h2 {
+  margin: 0;
+  padding: 5px 15px;
+  font-size: 18px;
+  font-weight: 200;
+  color: rgb(56, 55, 55);
+}
+
+.all-posts {
+  height: 500px;
+  padding: 40px 0;
+}
+
+.header-title{
+  padding: 0 45px;
+}
